@@ -1,0 +1,7 @@
+
+ù%squid:RedundantThrowsDeclarationCheckC"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ú˚øÿ
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒñŸ 8∑√»ââ.
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˇßè‚
+T
+squid:S106I"9Replace this use of System.out or System.err by a logger.(Æ˝·Î˚ˇˇˇˇ
+nsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(Ó”óå˙ˇˇˇˇ8µÙ»ââ.

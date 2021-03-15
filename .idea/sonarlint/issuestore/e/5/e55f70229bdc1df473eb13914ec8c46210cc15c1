@@ -1,0 +1,4 @@
+
+Wsquid:S1118":Add a private constructor to hide the implicit public one.(ø¶–?8¤¦üÍú-
+“squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ìİ»¬üÿÿÿÿ8¤¦üÍú-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ¬Ë

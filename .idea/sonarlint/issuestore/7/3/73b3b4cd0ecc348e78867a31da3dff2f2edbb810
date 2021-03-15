@@ -1,0 +1,7 @@
+
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ
+csquid:S2094"BRemove this empty class, write its code or make it an "interface".(ŽÇ¹¨ûÿÿÿÿ8ƒÆ‡©Ö.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(­¬¾þÿÿÿÿ8ƒÆ‡©Ö.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(½àŽ†ÿÿÿÿÿ8ƒÆ‡©Ö.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.( »©ûÿÿÿÿ8ƒÆ‡©Ö.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ƒÆ‡©Ö.

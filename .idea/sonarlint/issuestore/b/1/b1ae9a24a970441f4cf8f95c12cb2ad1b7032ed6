@@ -1,0 +1,13 @@
+
+F
+java:S1481"&Remove this unused "n" local variable.(…¾“ìøÿÿÿÿ8äºÀÿ.
+]
+java:S1854"BRemove this useless assignment to local variable "arrayOfNumbers".(‰ì¿Š8äºÀÿ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ¬Ë8äºÀÿ.
+N
+java:S1481"3Remove this unused "arrayOfNumbers" local variable.(‰ì¿Š8äºÀÿ.
+V	java:S125"<This block of commented-out lines of code should be removed.(Éœº8äºÀÿ.
+U
+java:S1854"5Remove this useless assignment to local variable "n".(…¾“ìøÿÿÿÿ8äºÀÿ.
+E
+java:S2201"*The return value of "charAt" must be used.(”ò²ÿ8äºÀÿ.

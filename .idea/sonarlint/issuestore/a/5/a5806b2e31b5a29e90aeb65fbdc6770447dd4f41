@@ -1,0 +1,4 @@
+
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(úùĞÔ8¥ÑÂÑù-
+Wsquid:UselessImportCheck",Remove this unused import 'java.util.Queue'.(Äá™ô8««¿Òù-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ¬Ë

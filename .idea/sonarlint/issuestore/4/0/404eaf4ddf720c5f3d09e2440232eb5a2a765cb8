@@ -1,0 +1,4 @@
+
+lsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¹÷Ã€8Ñ¡¨ÒÕ.
+lsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÏÐÇü8Ñ¡¨ÒÕ.
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ

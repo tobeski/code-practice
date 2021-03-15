@@ -1,0 +1,4 @@
+
+squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ˆ¤¡—8×¢èêş-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ¬Ë
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ŠÈİà8¡Õèêş-

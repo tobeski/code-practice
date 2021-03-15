@@ -1,0 +1,10 @@
+
+]squid:S18540":Remove this useless assignment to local variable "result".(ê§Ôéùÿÿÿÿ8ß®¸¬”.
+isquid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(êË¥ì8ß®¸¬”.
+usquid:S3973!"WUse curly braces or indentation to denote the code conditionally executed by this "if".(¯—ü8½ŽÐ¬”.
+nsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(½‘Ù€ýÿÿÿÿ8­íÐ¬”.
+¤%squid:RedundantThrowsDeclarationCheck+"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8ß®¸¬”.
+nsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(Øæœ€øÿÿÿÿ8ÅŠ¸¬”.
+nsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(Áíýµÿÿÿÿÿ8ß®¸¬”.
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ§â
+Nsquid:S14810"+Remove this unused "result" local variable.(ê§Ôéùÿÿÿÿ8ß®¸¬”.

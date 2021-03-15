@@ -1,0 +1,6 @@
+
+‡"squid:ClassVariableVisibilityCheck1"MMake x a static final constant or non-public and provide accessors if needed.(±Šõ¶ûÿÿÿÿ8ü‘ğÿá.
+Š"squid:ClassVariableVisibilityCheck2"PMake data a static final constant or non-public and provide accessors if needed.(ÅÖÔ´ùÿÿÿÿ8ü‘ğÿá.
+Fsquid:S1604"(Make this anonymous inner class a lambda(ƒîü8ü‘ğÿá.
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ8ü‘ğÿá.
+bsquid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ü‘ğÿá.

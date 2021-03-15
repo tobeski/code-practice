@@ -1,0 +1,7 @@
+
+Zsquid:S3972!"7Move this "if" to a new line or add the missing "else".(¥øüÎüÿÿÿÿ8©Šûˆ‰.
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Š¥ºì8©Šûˆ‰.
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ
+Usquid:S3972$"7Move this "if" to a new line or add the missing "else".(ŽÁ®Ø8©Šûˆ‰.
+[squid:S18544"8Remove this useless assignment to local variable "grid".(íÀˆ¯úÿÿÿÿ8…·üˆ‰.
+Lsquid:S14814")Remove this unused "grid" local variable.(íÀˆ¯úÿÿÿÿ8…·üˆ‰.

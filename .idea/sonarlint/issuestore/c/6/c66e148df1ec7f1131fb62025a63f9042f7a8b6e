@@ -1,0 +1,16 @@
+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò‘õ©ùÿÿÿÿ8ğ‡È¬¯.
+Jsquid:S1481".Remove this unused "continous" local variable.(ê©º÷8Ò¡ô®¯.
+gsquid:S2184"FCast one of the operands of this multiplication operation to a "long".(úÜîûÿÿÿÿ8òø¤­¯.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹î¬×ÿÿÿÿÿ8Ü€˜®¯.
+gsquid:S2184"FCast one of the operands of this multiplication operation to a "long".(õ¡Æ“ùÿÿÿÿ8İ€•®¯.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(†Ëü¸üÿÿÿÿ8ŞÆ‰­¯.
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰ú£ûûÿÿÿÿ8ûÓÃ¬¯.
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Æ†i8¶—ƒ¯¯.
+Jsquid:S1125")Remove the literal "false" boolean value.(­šÕÅûÿÿÿÿ8ğ‡È¬¯.
+psquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ§â
+Gsquid:S1172"&Remove these unused method parameters.(ŸÍï±øÿÿÿÿ8ŠçŠ­¯.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(œÀàÿÿÿÿÿ8¶—ƒ¯¯.

@@ -1,0 +1,8 @@
+
+m	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ¬Ë
+i
+java:S1104"PMake data a static final constant or non-public and provide accessors if needed.(ÅÖÔ´ùÿÿÿÿ
+d
+java:S1104"PMake next a static final constant or non-public and provide accessors if needed.(¦¢É—
+i
+java:S1104"PMake prev a static final constant or non-public and provide accessors if needed.(ØĞ³¼ÿÿÿÿÿ

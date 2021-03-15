@@ -1,0 +1,7 @@
+
+[squid:S18542"8Remove this useless assignment to local variable "head".(о╪╝ъ√    8▀е┴ъ■-
+Lsquid:S14812")Remove this unused "head" local variable.(о╪╝ъ√    8▀е┴ъ■-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ём╦Э
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(№БїА     8б░└ъ■-
+v
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ущ║ж8б░└ъ■-

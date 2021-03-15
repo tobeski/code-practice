@@ -1,0 +1,13 @@
+
+X	java:S106"9Replace this use of System.out or System.err by a logger.(Å•è¡şÿÿÿÿ8ÇÛãış.
+X
+java:S1197"8Move the array designator from the variable to the type.(ÇËÜ¡ÿÿÿÿÿ8ÇÛãış.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ¬Ë8ÇÛãış.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(û·¨·üÿÿÿÿ8ÇÛãış.
+X
+java:S1197"8Move the array designator from the variable to the type.(àÁ¥¹øÿÿÿÿ8ÇÛãış.
+x	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(€î½îüÿÿÿÿ8ÇÛãış.
+X
+java:S1197"8Move the array designator from the variable to the type.(»Şóùÿÿÿÿÿ8ÇÛãış.
+X
+java:S1197"8Move the array designator from the variable to the type.(Ì¯ßˆùÿÿÿÿ8ÇÛãış.

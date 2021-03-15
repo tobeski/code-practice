@@ -1,0 +1,6 @@
+
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Ù«Íüøÿÿÿÿ8“ªÛ¯».
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ
+{
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÆÓËÚşÿÿÿÿ8¤ŠÕ¯».
