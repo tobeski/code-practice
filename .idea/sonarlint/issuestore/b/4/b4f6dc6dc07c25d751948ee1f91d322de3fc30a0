@@ -1,11 +1,11 @@
 
-„
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŒÄ¨ä
-Œ
-java:S1319"xThe type of the "intervalsList" object should be an interface such as "List" rather than the implementation "ArrayList".(ŒÄ¨ä
-r	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íàªÒùÿÿÿÿ
-F
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
-E
-java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹
-Q	java:S106"9Replace this use of System.out or System.err by a logger.(Ø–Àÿÿÿÿÿ
+G
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íàªÒùÿÿÿÿ
+•
+java:S1319"xThe type of the "intervalsList" object should be an interface such as "List" rather than the implementation "ArrayList".(ŒÄ¨ä8Ÿùıúš/
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(Ø–Àÿÿÿÿÿ
+†
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŒÄ¨ä

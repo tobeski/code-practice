@@ -1,8 +1,11 @@
 
-[squid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ
-Ksquid:S1066"/Merge this if statement with the enclosing one.(‹¯óãıÿÿÿÿ
-Tsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ
-Wsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(¶ö©°øÿÿÿÿ8ÃÒº–/
+Q
+java:S1066"/Merge this if statement with the enclosing one.(‹¯óãıÿÿÿÿ8ÃÒº–/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ8ÃÒº–/
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ÃÒº–/
 T
-squid:S1060"9Replace this use of System.out or System.err by a logger.(¶ö©°øÿÿÿÿ
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ÃÒº–/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÃÒº–/

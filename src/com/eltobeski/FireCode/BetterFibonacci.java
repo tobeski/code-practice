@@ -1,5 +1,7 @@
 package com.eltobeski.FireCode;
 
+import java.util.Hashtable;
+
 public class BetterFibonacci {
     public static int betterFibonacci(int n) {
         if(n==0) return 0;
@@ -13,6 +15,13 @@ public class BetterFibonacci {
             y=temp;
         }
         return temp;
+    }
+
+    static Hashtable<Integer, Integer> memo = new Hashtable();
+    public static int fib(int n) {
+        if (n < 2) return n;
+        memo.putIfAbsent(n, fib(n-1) + fib(n-2));
+        return memo.get(n);
     }
 
 }

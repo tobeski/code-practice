@@ -3,6 +3,27 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="/src/com/eltobeski/ClosestToZeroInTwoLists.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/com/eltobeski/Codility/MSFTROUND2/ThirdQuestion.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/com/eltobeski/FindSpiralInMatrix/FindSpiralInMatrix.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/src/com/eltobeski/FireCode/DistanceOfANode/DistanceOfANode.java">
           <value>
             <Attribute>
@@ -11,6 +32,20 @@
           </value>
         </entry>
         <entry key="/src/com/eltobeski/FireCode/FindTheSumOfAllNodes/FindTheSumOfAllNodes.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/com/eltobeski/FireCode/Main.java">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/src/com/eltobeski/LeetCode/SymmetricTree.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />

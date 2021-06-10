@@ -1,3 +1,4 @@
 
-‚"squid:ClassVariableVisibilityCheck-"OMake end a static final constant or non-public and provide accessors if needed.(±˜‘Ãþÿÿÿÿ
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ
+y	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ8˜ùÃ×‡/
+o
+java:S1104"OMake end a static final constant or non-public and provide accessors if needed.(±˜‘Ãþÿÿÿÿ8˜ùÃ×‡/

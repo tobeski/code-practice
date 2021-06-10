@@ -1,11 +1,18 @@
 
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ
-Ksquid:S14815"(Remove this unused "ans" local variable.(î‹¼âüÿÿÿÿ8™Ü°±‰.
-usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø•úåùÿÿÿÿ8±ŞÒ‹‰.
-Zsquid:S18547"7Remove this useless assignment to local variable "ans".(û†÷ïıÿÿÿÿ8”Ü‹‰.
-ysquid:S1488@"[Immediately return this expression instead of assigning it to the temporary variable "sum".(ËÿàÅ8±ŞÒ‹‰.
-‡"squid:ClassVariableVisibilityCheckF"MMake y a static final constant or non-public and provide accessors if needed.(ÔçÛşÿÿÿÿ8±ŞÒ‹‰.
-Zsquid:S18545"7Remove this useless assignment to local variable "ans".(î‹¼âüÿÿÿÿ8™Ü°±‰.
-Ksquid:S1604!"(Make this anonymous inner class a lambda(ñŠšàúÿÿÿÿ8Øô§±‰.
-psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Ñãš8’½±‰.
-‡"squid:ClassVariableVisibilityCheckE"MMake x a static final constant or non-public and provide accessors if needed.(±Šõ¶ûÿÿÿÿ8±ŞÒ‹‰.
+Y
+java:S18545"7Remove this useless assignment to local variable "ans".(î‹¼âüÿÿÿÿ8äòò“›/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø•úåùÿÿÿÿ8äòò“›/
+J
+java:S14815"(Remove this unused "ans" local variable.(î‹¼âüÿÿÿÿ8äòò“›/
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦Ñãš8äòò“›/
+x
+java:S1488@"[Immediately return this expression instead of assigning it to the temporary variable "sum".(ËÿàÅ8äòò“›/
+o
+java:S1104F"MMake y a static final constant or non-public and provide accessors if needed.(ÔçÛşÿÿÿÿ8äòò“›/
+J
+java:S1604!"(Make this anonymous inner class a lambda(ñŠšàúÿÿÿÿ8äòò“›/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ8äòò“›/
+Y
+java:S18547"7Remove this useless assignment to local variable "ans".(û†÷ïıÿÿÿÿ8äòò“›/
+o
+java:S1104E"MMake x a static final constant or non-public and provide accessors if needed.(±Šõ¶ûÿÿÿÿ8äòò“›/

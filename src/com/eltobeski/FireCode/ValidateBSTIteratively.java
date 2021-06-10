@@ -39,7 +39,7 @@ public class ValidateBSTIteratively {
 
     }
     public static void main(String[] args){
-        TreeNode head = restoreTree("2147483647");
+        TreeNode head = restoreTree("10,5,15,2,5,13,22,1,*,*,*,*,14,*,*");
 
         System.out.println(validateBSTItr(head));
         System.out.println(Integer.MAX_VALUE);

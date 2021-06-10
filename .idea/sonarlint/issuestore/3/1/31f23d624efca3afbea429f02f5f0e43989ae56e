@@ -1,4 +1,8 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ¬Ë8ÔÛãış.
-Z
-java:S1118":Add a private constructor to hide the implicit public one.(á½‚úÿÿÿÿ8ÔÛãış.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ¬Ë8ÔÛãış.
+\
+java:S1118":Add a private constructor to hide the implicit public one.(á½‚úÿÿÿÿ8ÔÛãış.
+Q
+java:S3740"/Provide the parametrized type for this generic.(¿™ ©úÿÿÿÿ8‰œ¯ˆ/
+x
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(¿™ ©úÿÿÿÿ8‰œ¯ˆ/

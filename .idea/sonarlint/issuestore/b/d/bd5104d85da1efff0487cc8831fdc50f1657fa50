@@ -1,7 +1,6 @@
 
-[
-squid:S1069"9Replace this use of System.out or System.err by a logger.(™¥½šûÿÿÿÿ8ÃÅ”¬¯.
-~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ8ÃÅ”¬¯.
-V
-squid:S1067"9Replace this use of System.out or System.err by a logger.(ª–œ™8ÃÅ”¬¯.
-^squid:UselessImportCheck"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8ÃÅ”¬¯.
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(™¥½šûÿÿÿÿ8¼ùÎ¯…/
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8¼ùÎ¯…/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ8¼ùÎ¯…/
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(ª–œ™8¼ùÎ¯…/

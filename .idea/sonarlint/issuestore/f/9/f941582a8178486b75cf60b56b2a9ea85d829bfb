@@ -1,7 +1,12 @@
 
-Isquid:S1444"2Make this "public static combinations" field final(¶ý“¿
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ
-†"squid:ClassVariableVisibilityCheck"XMake combinations a static final constant or non-public and provide accessors if needed.(¶ý“¿
->squid:S2386"'Make member "combinations" "protected".(“ì÷È
-€squid:S4165"jRemove this useless assignment; "combinations" already holds the assigned value along all execution paths.(÷ÈÕT
-Esquid:S1656"/Remove or correct this useless self-assignment.(÷ÈÕT
+†
+java:S4165"jRemove this useless assignment; "combinations" already holds the assigned value along all execution paths.(÷ÈÕT8²ì‹ÒŒ/
+O
+java:S1444"2Make this "public static combinations" field final(¶ý“¿8²ì‹ÒŒ/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ÊïÒÿÿÿÿÿ8²ì‹ÒŒ/
+u
+java:S1104"XMake combinations a static final constant or non-public and provide accessors if needed.(¶ý“¿8²ì‹ÒŒ/
+D
+java:S2386"'Make member "combinations" "protected".(“ì÷È8²ì‹ÒŒ/
+K
+java:S1656"/Remove or correct this useless self-assignment.(÷ÈÕT8²ì‹ÒŒ/

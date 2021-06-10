@@ -1,6 +1,10 @@
 
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ¬Ë
-ssquid:S11490"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(´é¼“ÿÿÿÿÿ8ì¥‚èş-
-“squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŠÉÔØûÿÿÿÿ8šîŠèş-
-squid:S1319)"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(İ§Ğ8ì¥‚èş-
-‘squid:S1319"nThe type of the "out" object should be an interface such as "List" rather than the implementation "ArrayList".(Ì·¶”øÿÿÿÿ8šîŠèş-
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŠÉÔØûÿÿÿÿ8Åé¯„/
+
+java:S1319"nThe type of the "out" object should be an interface such as "List" rather than the implementation "ArrayList".(Ì·¶”øÿÿÿÿ8Åé¯„/
+
+java:S1319)"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(İ§Ğ8Åé¯„/
+r
+java:S11490"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(´é¼“ÿÿÿÿÿ8Åé¯„/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğ¬Ë8Åé¯„/
