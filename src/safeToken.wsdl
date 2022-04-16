@@ -1,0 +1,91 @@
+<definitions name="SafeTokenService"
+             xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+             xmlns:tec="http://schemas.datacontract.org/2004/07/TechQuest.Framework.ServiceFramework.Contract"
+             xmlns:tec1="techquest.interswitchng.com"
+             xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://services.interswitchng.com/"
+             targetNamespace="http://services.interswitchng.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+>
+
+    <types>
+        <xsd:schema targetNamespace="http://services.interswitchng.com/" elementFormDefault="qualified">
+            <xsd:element name="AddCardHolder"  >
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element  name="request" type="tns:requests" />
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="AddCardHolderResponse" type="tns:AddCardHolderResult"/>
+            <xsd:complexType name="requests" >
+                <xsd:sequence>
+                    <xsd:element  ref="tec:TerminalId"/>
+                    <xsd:element  ref="tec1:AccountNumber"/>
+                    <xsd:element  ref="tec1:BankId"/>
+                    <xsd:element  ref="tec1:CardPan"/>
+                    <xsd:element  ref="tec1:City"/>
+                    <xsd:element  ref="tec1:PrimaryMobileNumber"/>
+                </xsd:sequence>
+            </xsd:complexType>
+            <xsd:complexType name="AddCardHolderResult">
+                <xsd:sequence>
+                    <xsd:element name="ResponseCode" type="xsd:string"/>
+                    <xsd:element name="ResponseDescription" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:schema>
+        <xsd:schema id="tec1" targetNamespace="techquest.interswitchng.com" elementFormDefault="qualified">
+            <xsd:element name="AccountNumber" type="xsd:string"/>
+            <xsd:element name="BankId" type="xsd:string"/>
+            <xsd:element name="CardPan" type="xsd:string"/>
+            <xsd:element name="City" type="xsd:string"/>
+            <xsd:element name="PrimaryMobileNumber" type="xsd:string"/>
+
+        </xsd:schema>
+        <xsd:schema id="tec" targetNamespace="http://schemas.datacontract.org/2004/07/TechQuest.Framework.ServiceFramework.Contract" elementFormDefault="qualified">
+            <xsd:element name="TerminalId" type="xsd:string"/>
+
+        </xsd:schema>
+    </types>
+
+    <message name = "AddCardHolder">
+        <part name = "parameters" element = "tns:AddCardHolder"/>
+    </message>
+
+    <message name = "AddCardHolderResponse">
+        <part name = "parameters" element = "tns:AddCardHolderResponse"/>
+    </message>
+
+    <portType name = "Hello_PortType">
+        <operation name = "AddCardHolder">
+            <input message = "tns:AddCardHolder"/>
+            <output message = "tns:AddCardHolderResponse"/>
+        </operation>
+    </portType>
+
+    <wsdl:binding name = "Hello_Binding" type = "tns:Hello_PortType">
+        <http:binding verb="POST" />
+        <soap:binding style = "document"
+                      transport = "http://schemas.xmlsoap.org/soap/http"/>
+        <operation name = "AddCardHolder" >
+            <soap:operation soapAction = "AddCardHolder" style="document"/>
+            <input>
+                <soap:body
+                        use = "literal"/>
+            </input>
+
+            <output>
+                <soap:body
+                        use = "literal"/>
+            </output>
+        </operation>
+    </wsdl:binding>
+
+    <service name = "Hello_Service">
+        <documentation>WSDL File for HelloService</documentation>
+        <port binding = "tns:Hello_Binding" name = "Hello_Port">
+            <soap:address
+                    location = "https://api-gateway.interswitchng.com/api/v1/safetoken" />
+        </port>
+    </service>
+</definitions>

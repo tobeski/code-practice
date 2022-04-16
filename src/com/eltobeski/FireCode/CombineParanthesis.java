@@ -1,6 +1,5 @@
 package com.eltobeski.FireCode;
 
-import sun.jvm.hotspot.utilities.Assert;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,11 +24,7 @@ public class CombineParanthesis {
                 answer.add(pa.sb);
             }
         }
-
-
         return answer;
-
-
     }
 
     public static ArrayList<String> combParenthesis2(int pairs) {

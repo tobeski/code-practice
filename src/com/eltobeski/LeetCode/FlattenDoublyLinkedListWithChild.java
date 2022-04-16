@@ -1,6 +1,5 @@
 package com.eltobeski.LeetCode;
 
-import javafx.util.Pair;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -7,7 +7,7 @@ import java.util.List;
 public class ThreeSums {
     static   List<List<Integer>>  answers = new ArrayList<>();
 
-    public static List<List<Integer>> threeSum(int[] nums) {
+    public static List<List<Integer>> threeSumFailed(int[] nums) {
         Arrays.sort(nums);
         helper(nums,0,new ArrayList<>(),0);
         return answers;
@@ -30,6 +30,45 @@ public class ThreeSums {
 
         }
 
+    }
+
+    public static List<List<Integer>> threeSum(int[] nums) {
+        if(nums.length<3)
+            return List.of();
+
+        List<List<Integer>> answers = new ArrayList<>();
+        Arrays.sort(nums);
+
+
+        for(int i = 0;i< nums.length-2;i++){
+            if(i>0&&nums[i]==nums[i-1])
+                continue;
+            int j = i+1;
+            int k = nums.length-1;
+            while (j<k){
+                int sum = nums[i] + nums[j] + nums[k];
+
+                if(sum==0){
+                    answers.add(List.of(nums[i], nums[j],nums[k]));
+                    k--;
+
+                    while( k>=0 &&nums[k]==nums[k+1] )
+                        k--;
+                }
+
+                else if(sum > 0){
+                    k--;
+                    while(k>=0 && nums[k]==nums[k+1]  )
+                        k--;
+                }
+                else {
+                    j++;
+                    while(j<nums.length && nums[j]==nums[j-1]  )
+                        j++;
+                }
+            }
+        }
+        return answers;
     }
 
     public static void main(String[] args) {

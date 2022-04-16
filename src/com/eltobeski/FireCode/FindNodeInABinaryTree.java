@@ -1,7 +1,11 @@
 package com.eltobeski.FireCode;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
+
+import static com.eltobeski.FireCode.BinaryTreeSerialization.restoreTree;
 
 public class FindNodeInABinaryTree{
         public TreeNode findNodeRecursive(TreeNode root, int val) {
@@ -11,6 +15,12 @@ public class FindNodeInABinaryTree{
             if(curr == null) curr = findNodeRecursive(root.right,val);
             return curr;
         }
+
+    public static void main(String[] args) {
+        TreeNode head = restoreTree("1,2,3,4,5,6,7");
+
+        System.out.println(findNode(head,7));
+    }
 
     public TreeNode findNodeIterative(TreeNode root, int val) {
         if(root==null){
@@ -32,6 +42,25 @@ public class FindNodeInABinaryTree{
         }
         return null;
 
+    } private static Boolean findNode(TreeNode root, int n) {
+        // Add your code here
+        if(root==null){
+            return false;
+        }
+        Deque<TreeNode> stack =  new ArrayDeque<>();
+        stack.push(root);
+        while(!stack.isEmpty()){
+            TreeNode node = stack.pop();
+            if(node.data==n)
+            {
+                return true;
+            }
+            if(node.right!=null)
+                stack.push(node.right);
+            if(node.left!=null)
+                stack.push(node.left);
+        }
+        return false;
     }
 
 }

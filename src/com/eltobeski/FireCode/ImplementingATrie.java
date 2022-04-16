@@ -30,6 +30,8 @@ public class ImplementingATrie {
                 root = new TrieNode();
             }
             TrieNode node = root;
+            Long a = 0L;
+            int b = a.intValue();
             HashMap<Character, TrieNode> childs = node.children;
             for (int i = 0; i < word.length(); i++) {
                 Character c = word.charAt(i);

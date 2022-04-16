@@ -5,7 +5,7 @@ import com.eltobeski.FireCode.TreeNode;
 import java.util.ArrayList;
 
 public class FindAncestorsInABinaryTree {
-    public ArrayList<Integer> ancestorsList = new ArrayList<Integer>();
+    public ArrayList<Integer> ancestorsList = new ArrayList<>();
     public boolean printAncestors(TreeNode root, int nodeData) {
         if(root==null)
             return false;

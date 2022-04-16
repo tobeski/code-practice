@@ -17,7 +17,7 @@ public class BetterFibonacci {
         return temp;
     }
 
-    static Hashtable<Integer, Integer> memo = new Hashtable();
+    static Hashtable<Integer, Integer> memo = new Hashtable<>();
     public static int fib(int n) {
         if (n < 2) return n;
         memo.putIfAbsent(n, fib(n-1) + fib(n-2));

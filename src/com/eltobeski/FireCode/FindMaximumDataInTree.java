@@ -1,6 +1,5 @@
 package com.eltobeski.FireCode;
 
-import sun.text.normalizer.Trie;
 
 public class FindMaximumDataInTree {
     public int findMax(TreeNode root) {
